@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header.svg" alt="header" />
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header.svg.svg" alt="header" />
 
 ### 👋 ¡Hola! Soy Carlos P.
 
