@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_split_animated.svg" width="100%" height="200px" />
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_split_animated_fixed.svg" width="100%" height="200px" />
 
 
 🎓 Estudiante de Desarrollo de Aplicaciones Web  
