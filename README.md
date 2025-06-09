@@ -8,7 +8,7 @@
 
 ### 🎓 Sobre mí
 
-* 📍 Soy estudiante de **Desarrollo de Aplicaciones Web**
+* 📍 Estudiante de **Desarrollo de Aplicaciones Web**
 * 🛠️ Me apasiona crear soluciones reales con tecnologías modernas
 * 🚀 Actualmente enfocado en el back-end con **Java + Spring Boot** y explorando **React**
 * 🧩 Curioso, autodidacta y con muchas ganas de aprender y aportar
@@ -23,7 +23,10 @@
 
 ### 🧰 Herramientas favoritas
 
-<img src="https://skillicons.dev/icons?i=intellij,netbeans,vscode,postman,mysql" />
+<img src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
+
+![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red?logo=intellijidea\&logoColor=white\&style=for-the-badge)
+![NetBeans](https://img.shields.io/badge/IDE-NetBeans-blue?logo=apachenetbeanside\&logoColor=white\&style=for-the-badge)
 
 ---
 
@@ -43,8 +46,8 @@
 
 ### 📬 Contacto
 
-* 📧 Correo: [dawcarlospereira@gmail.com](mailto:dawcarlospereira@gmail.com)
-* 💼 [LinkedIn](https://es.linkedin.com/in/carlos-pereira-285815334)
+[![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:dawcarlospereira@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
 
 ---
 
