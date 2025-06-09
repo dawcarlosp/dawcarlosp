@@ -1,0 +1,45 @@
+
+<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#9B51E0"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#FF7F50"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0B132B" />
+  <circle cx="669" cy="120" r="1.3" fill="#ffe0e0" /><circle cx="225" cy="31" r="1.2" fill="#ffe0e0" /><circle cx="658" cy="39" r="1.2" fill="#f0f8ff" /><circle cx="660" cy="62" r="1.5" fill="#f0f8ff" /><circle cx="654" cy="126" r="1.1" fill="#fffacd" /><circle cx="497" cy="80" r="1.3" fill="#e0e0ff" /><circle cx="1069" cy="129" r="1.4" fill="#ffffff" /><circle cx="1068" cy="166" r="1.5" fill="#fffacd" /><circle cx="62" cy="176" r="1.4" fill="#ffe0e0" /><circle cx="647" cy="168" r="1.0" fill="#e0e0ff" /><circle cx="32" cy="83" r="1.2" fill="#f0f8ff" /><circle cx="741" cy="57" r="1.5" fill="#f0f8ff" /><circle cx="358" cy="133" r="1.2" fill="#fffacd" /><circle cx="623" cy="44" r="1.1" fill="#f0f8ff" /><circle cx="559" cy="134" r="1.3" fill="#ffe0e0" /><circle cx="717" cy="54" r="1.1" fill="#f0f8ff" /><circle cx="539" cy="151" r="1.2" fill="#ffffff" /><circle cx="634" cy="34" r="1.4" fill="#e0e0ff" /><circle cx="1062" cy="142" r="1.1" fill="#fffacd" /><circle cx="571" cy="63" r="1.0" fill="#ffffff" /><circle cx="405" cy="104" r="1.1" fill="#e0e0ff" /><circle cx="474" cy="162" r="1.4" fill="#e0e0ff" /><circle cx="725" cy="103" r="1.4" fill="#e0e0ff" /><circle cx="717" cy="81" r="1.2" fill="#fffacd" /><circle cx="661" cy="59" r="1.4" fill="#f0f8ff" /><circle cx="1046" cy="163" r="1.0" fill="#fffacd" /><circle cx="1038" cy="158" r="1.1" fill="#fffacd" /><circle cx="486" cy="145" r="1.2" fill="#ffffff" /><circle cx="93" cy="80" r="1.2" fill="#f0f8ff" /><circle cx="717" cy="15" r="1.3" fill="#f0f8ff" /><circle cx="256" cy="151" r="1.3" fill="#ffe0e0" /><circle cx="499" cy="48" r="1.5" fill="#ffffff" /><circle cx="1083" cy="49" r="1.1" fill="#f0f8ff" /><circle cx="338" cy="134" r="1.1" fill="#f0f8ff" /><circle cx="753" cy="112" r="1.4" fill="#e0e0ff" /><circle cx="894" cy="29" r="1.4" fill="#ffffff" /><circle cx="679" cy="51" r="1.3" fill="#ffffff" /><circle cx="13" cy="154" r="1.3" fill="#fffacd" /><circle cx="388" cy="126" r="1.4" fill="#e0e0ff" /><circle cx="561" cy="158" r="1.1" fill="#ffffff" /><circle cx="878" cy="152" r="1.2" fill="#ffffff" /><circle cx="230" cy="129" r="1.1" fill="#fffacd" /><circle cx="14" cy="112" r="1.4" fill="#f0f8ff" /><circle cx="804" cy="180" r="1.2" fill="#fffacd" /><circle cx="231" cy="83" r="1.1" fill="#fffacd" /><circle cx="825" cy="170" r="1.0" fill="#ffffff" /><circle cx="195" cy="39" r="1.3" fill="#fffacd" /><circle cx="340" cy="107" r="1.3" fill="#ffe0e0" /><circle cx="960" cy="10" r="1.1" fill="#f0f8ff" /><circle cx="295" cy="108" r="1.2" fill="#f0f8ff" /><circle cx="958" cy="102" r="1.1" fill="#f0f8ff" /><circle cx="1100" cy="164" r="1.5" fill="#f0f8ff" /><circle cx="973" cy="152" r="1.3" fill="#ffffff" /><circle cx="289" cy="57" r="1.3" fill="#fffacd" /><circle cx="936" cy="38" r="1.1" fill="#ffe0e0" /><circle cx="154" cy="18" r="1.1" fill="#f0f8ff" /><circle cx="952" cy="51" r="1.2" fill="#ffe0e0" /><circle cx="869" cy="118" r="1.5" fill="#ffe0e0" /><circle cx="997" cy="56" r="1.2" fill="#e0e0ff" /><circle cx="210" cy="114" r="1.1" fill="#e0e0ff" />
+  <circle cx="1080" cy="90" r="40" fill="#FF7F50" />
+
+  <text x="100" y="180" font-family="monospace" font-size="30" fill="white" filter="url(#neon)">
+    <tspan id="l1" visibility="hidden">👋</tspan>
+    <tspan id="l2" visibility="hidden"> </tspan>
+    <tspan id="l3" visibility="hidden">¡</tspan>
+    <tspan id="l4" visibility="hidden" dx="-15">H</tspan>
+    <tspan id="l5" visibility="hidden" dx="-15">o</tspan>
+    <tspan id="l6" visibility="hidden" dx="-15">l</tspan>
+    <tspan id="l7" visibility="hidden" dx="-15">a</tspan>
+    <tspan id="l8" visibility="hidden" dx="-15">!</tspan>
+    <tspan id="l9" visibility="hidden" dx="-15">,</tspan>
+    <tspan id="l10" visibility="hidden"> </tspan>
+    <tspan id="l11" visibility="hidden">S</tspan>
+    <tspan id="l12" visibility="hidden" dx="-15">o</tspan>
+    <tspan id="l13" visibility="hidden" dx="-15">y</tspan>
+    <tspan id="l14" visibility="hidden" dx="-15"> </tspan>
+    <tspan id="l15" visibility="hidden">C</tspan>
+    <tspan id="l16" visibility="hidden" dx="-15">a</tspan>
+    <tspan id="l17" visibility="hidden" dx="-15">r</tspan>
+    <tspan id="l18" visibility="hidden" dx="-15">l</tspan>
+    <tspan id="l19" visibility="hidden" dx="-15">o</tspan>
+    <tspan id="l20" visibility="hidden" dx="-15">s</tspan>
+    <tspan id="l21" visibility="hidden"> </tspan>
+    <tspan id="l22" visibility="hidden">P</tspan>
+    <tspan id="l23" visibility="hidden" dx="-15">.</tspan>
+    <tspan id="cursor" visibility="hidden">|</tspan>
+
+    <!-- Animate each tspan visibility -->
+    <animate attributeName="visibility" values="visible" begin="0.0s" dur="0.1s" fill="freeze" href="#l1" /><animate attributeName="visibility" values="visible" begin="0.15s" dur="0.1s" fill="freeze" href="#l2" /><animate attributeName="visibility" values="visible" begin="0.3s" dur="0.1s" fill="freeze" href="#l3" /><animate attributeName="visibility" values="visible" begin="0.44999999999999996s" dur="0.1s" fill="freeze" href="#l4" /><animate attributeName="visibility" values="visible" begin="0.6s" dur="0.1s" fill="freeze" href="#l5" /><animate attributeName="visibility" values="visible" begin="0.75s" dur="0.1s" fill="freeze" href="#l6" /><animate attributeName="visibility" values="visible" begin="0.8999999999999999s" dur="0.1s" fill="freeze" href="#l7" /><animate attributeName="visibility" values="visible" begin="1.05s" dur="0.1s" fill="freeze" href="#l8" /><animate attributeName="visibility" values="visible" begin="1.2s" dur="0.1s" fill="freeze" href="#l9" /><animate attributeName="visibility" values="visible" begin="1.3499999999999999s" dur="0.1s" fill="freeze" href="#l10" /><animate attributeName="visibility" values="visible" begin="1.5s" dur="0.1s" fill="freeze" href="#l11" /><animate attributeName="visibility" values="visible" begin="1.65s" dur="0.1s" fill="freeze" href="#l12" /><animate attributeName="visibility" values="visible" begin="1.7999999999999998s" dur="0.1s" fill="freeze" href="#l13" /><animate attributeName="visibility" values="visible" begin="1.95s" dur="0.1s" fill="freeze" href="#l14" /><animate attributeName="visibility" values="visible" begin="2.1s" dur="0.1s" fill="freeze" href="#l15" /><animate attributeName="visibility" values="visible" begin="2.25s" dur="0.1s" fill="freeze" href="#l16" /><animate attributeName="visibility" values="visible" begin="2.4s" dur="0.1s" fill="freeze" href="#l17" /><animate attributeName="visibility" values="visible" begin="2.55s" dur="0.1s" fill="freeze" href="#l18" /><animate attributeName="visibility" values="visible" begin="2.6999999999999997s" dur="0.1s" fill="freeze" href="#l19" /><animate attributeName="visibility" values="visible" begin="2.85s" dur="0.1s" fill="freeze" href="#l20" /><animate attributeName="visibility" values="visible" begin="3.0s" dur="0.1s" fill="freeze" href="#l21" /><animate attributeName="visibility" values="visible" begin="3.15s" dur="0.1s" fill="freeze" href="#l22" /><animate attributeName="visibility" values="visible" begin="3.3s" dur="0.1s" fill="freeze" href="#l23" />
+    <animate attributeName="visibility" values="visible;hidden;visible" begin="3.6s" dur="1s"
+             repeatCount="indefinite" href="#cursor" />
+  </text>
+</svg>
