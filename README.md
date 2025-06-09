@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_carlosp_handwrite.svg" alt="header" width="100%" height=300px />
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_split.svg" width="100%" height="200px" />
 
 
 🎓 Estudiante de Desarrollo de Aplicaciones Web  
@@ -40,3 +40,5 @@
 
 - 💼 [LinkedIn](https://es.linkedin.com/in/carlos-pereira-285815334)
 - 🌐 Portafolio próximamente...
+
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footer_split.svg" width="100%" height="200px" />
