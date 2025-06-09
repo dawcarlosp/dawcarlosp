@@ -37,7 +37,7 @@
 
 ### 📫 Contacto
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/tu-linkedin/)
+- 💼 [LinkedIn](https://es.linkedin.com/in/carlos-pereira-285815334)
 - 🌐 Portafolio próximamente...
 
 ---
