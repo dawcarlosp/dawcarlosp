@@ -1,6 +1,5 @@
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_carlosp.svg" alt="header" width="100%" heigth=auto />
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_carlosp.svg" alt="header" width="100%" heigth=200px />
 
-### 👋 ¡Hola! Soy Carlos P.
 
 🎓 Estudiante de Desarrollo de Aplicaciones Web  
 🛠️ Me apasiona crear soluciones útiles con tecnologías modernas  
