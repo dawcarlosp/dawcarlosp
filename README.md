@@ -41,4 +41,4 @@
 - 💼 [LinkedIn](https://es.linkedin.com/in/carlos-pereira-285815334)
 - 🌐 Portafolio próximamente...
 
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footer_split.svg" width="100%" height="200px" />
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footer_waves_dynamic.svg" width="100%" height="200px" />
