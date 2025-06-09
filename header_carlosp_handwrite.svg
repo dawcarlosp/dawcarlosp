@@ -1,0 +1,46 @@
+
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#9B51E0"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#FF7F50"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0B132B"/>
+
+  <!-- Layer 1 -->
+  <path fill="#9B51E0" fill-opacity="0.6" d="M0,320 C300,250 900,350 1200,280 L1200,400 L0,400 Z">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="
+        M0,320 C300,250 900,350 1200,280 L1200,400 L0,400 Z;
+        M0,300 C350,270 850,260 1200,300 L1200,400 L0,400 Z;
+        M0,320 C300,250 900,350 1200,280 L1200,400 L0,400 Z" />
+  </path>
+
+  <!-- Layer 2 -->
+  <path fill="#FF7F50" fill-opacity="0.6" d="M0,340 C400,300 800,370 1200,300 L1200,400 L0,400 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0,340 C400,300 800,370 1200,300 L1200,400 L0,400 Z;
+        M0,330 C450,310 750,290 1200,310 L1200,400 L0,400 Z;
+        M0,340 C400,300 800,370 1200,300 L1200,400 L0,400 Z" />
+  </path>
+
+  <!-- Layer 3 -->
+  <path fill="#FCA78F" fill-opacity="0.4" d="M0,360 C500,320 700,390 1200,310 L1200,400 L0,400 Z">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="
+        M0,360 C500,320 700,390 1200,310 L1200,400 L0,400 Z;
+        M0,350 C520,330 680,370 1200,330 L1200,400 L0,400 Z;
+        M0,360 C500,320 700,390 1200,310 L1200,400 L0,400 Z" />
+  </path>
+
+  <!-- Text with handwriting animation -->
+  <text x="50%" y="200" text-anchor="middle" font-size="40" font-family="Verdana"
+        fill="none" stroke="white" stroke-width="1.2" filter="url(#neon)">
+    👋 ¡Hola! Soy Carlos P.
+    <animate attributeName="stroke-dasharray" from="0,500" to="500,0" dur="5s" fill="freeze" />
+    <animate attributeName="stroke-dashoffset" from="500" to="0" dur="5s" fill="freeze" />
+  </text>
+</svg>
