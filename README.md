@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header.svg" alt="header" />
+
 ### 👋 ¡Hola! Soy Carlos P.
 
 🎓 Estudiante de Desarrollo de Aplicaciones Web  
@@ -39,7 +41,3 @@
 
 - 💼 [LinkedIn](https://es.linkedin.com/in/carlos-pereira-285815334)
 - 🌐 Portafolio próximamente...
-
----
-
-
