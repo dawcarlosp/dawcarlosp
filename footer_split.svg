@@ -1,0 +1,26 @@
+
+<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0B132B" />
+  <!-- Waves -->
+  <path fill="#9B51E0" fill-opacity="0.6" d="M0,0 C300,-70 900,30 1200,-40 L1200,200 L0,200 Z">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="
+        M0,0 C300,-70 900,30 1200,-40 L1200,200 L0,200 Z;
+        M0,-20 C350,-50 850,-90 1200,-20 L1200,200 L0,200 Z;
+        M0,0 C300,-70 900,30 1200,-40 L1200,200 L0,200 Z" />
+  </path>
+  <path fill="#FF7F50" fill-opacity="0.6" d="M0,20 C400,-20 800,50 1200,-20 L1200,200 L0,200 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M0,20 C400,-20 800,50 1200,-20 L1200,200 L0,200 Z;
+        M0,10 C450,-10 750,-30 1200,-10 L1200,200 L0,200 Z;
+        M0,20 C400,-20 800,50 1200,-20 L1200,200 L0,200 Z" />
+  </path>
+  <path fill="#FCA78F" fill-opacity="0.4" d="M0,40 C500,0 700,70 1200,-10 L1200,200 L0,200 Z">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="
+        M0,40 C500,0 700,70 1200,-10 L1200,200 L0,200 Z;
+        M0,30 C520,10 680,50 1200,10 L1200,200 L0,200 Z;
+        M0,40 C500,0 700,70 1200,-10 L1200,200 L0,200 Z" />
+  </path>
+</svg>
