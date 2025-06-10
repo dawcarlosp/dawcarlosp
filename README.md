@@ -8,7 +8,7 @@
 
 ### 🎓 Sobre mí
 
-* 📍 Estudiante de **Desarrollo de Aplicaciones Web**
+* 📍 Soy Carlos P., estudiante de **Desarrollo de Aplicaciones Web**
 * 🛠️ Me apasiona crear soluciones reales con tecnologías modernas
 * 🚀 Actualmente enfocado en el back-end con **Java + Spring Boot** y explorando **React**
 * 🧩 Curioso, autodidacta y con muchas ganas de aprender y aportar
@@ -48,6 +48,7 @@
 
 [![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:dawcarlospereira@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
+[![Docker](https://img.shields.io/badge/DockerHub-dawcarlosp-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)](https://hub.docker.com/repositories/dawcarlosp)
 
 ---
 
