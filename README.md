@@ -25,8 +25,8 @@
 
 <img src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
 
-![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red?logo=intellijidea\&logoColor=white\&style=for-the-badge)
-![NetBeans](https://img.shields.io/badge/IDE-NetBeans-blue?logo=apachenetbeanside\&logoColor=white\&style=for-the-badge)
+![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red?logo=intellijidea&logoColor=white&style=for-the-badge)
+![NetBeans](https://img.shields.io/badge/IDE-NetBeans-blue?logo=apachenetbeanside&logoColor=white&style=for-the-badge)
 
 ---
 
@@ -46,15 +46,21 @@
 
 ### 📬 Contacto
 
-[![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:dawcarlospereira@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
-[![Docker](https://img.shields.io/badge/DockerHub-dawcarlosp-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)](https://hub.docker.com/repositories/dawcarlosp)
+[![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dawcarlospereira@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
+[![Docker](https://img.shields.io/badge/DockerHub-dawcarlosp-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/repositories/dawcarlosp)
+
+---
+
+### 📄 Descargar CV
+
+[📥 Carlos_Pereira_Desarrollador_Web.pdf](https://github.com/dawcarlosp/dawcarlosp/raw/main/Carlos_Pereira_Desarrollador_Web.pdf)
 
 ---
 
 ### 📈 Actividad reciente
 
-[![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp\&theme=github-dark\&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
