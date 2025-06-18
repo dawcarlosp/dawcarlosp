@@ -68,5 +68,5 @@
 ---
 
 <a href="https://github.com/dawcarlosp">
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footerPerfil.svg" width="100%" height="250px" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footerPerfil.svg" width="100%" height="auto" />
 </a>
