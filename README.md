@@ -1,4 +1,7 @@
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_split_animated_fixed.svg" width="100%" height="250px" />
+<a href="https://github.com/dawcarlosp">
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/header_split_animated_fixed.svg" width="100%" height="250px" />
+</a>
+
 
 <p align="center">
   <em>🧠 Siempre aprendiendo | 💻 Estudiante apasionado por el desarrollo web moderno</em>
@@ -64,4 +67,6 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footer_waves_dynamic.svg" width="100%" height="250px" />
+<a href="https://github.com/dawcarlosp">
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footer_waves_dynamic.svg" width="100%" height="250px" />
+</a>
