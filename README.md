@@ -20,31 +20,43 @@
 
 ### 💡 Stack actual
 
+<a href="https://github.com/dawcarlosp">
 <img src="https://skillicons.dev/icons?i=java,spring,php,laravel,react,mysql,docker,html,css,git" />
-
+<a/>
 ---
 
 ### 🧰 Herramientas favoritas
 
+<a href="https://github.com/dawcarlosp">
 <img src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
+</a>
 
+<a href="https://github.com/dawcarlosp">
 ![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red?logo=intellijidea&logoColor=white&style=for-the-badge)
+</a>
+<a href="https://github.com/dawcarlosp">
 ![NetBeans](https://img.shields.io/badge/IDE-NetBeans-blue?logo=apachenetbeanside&logoColor=white&style=for-the-badge)
-
+</a>
 ---
 
 ### 📈 Lenguajes más usados
 
+<a href="https://github.com/dawcarlosp">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawcarlosp&layout=compact&theme=github_dark&langs_count=8" />
-
+</a>
 ---
 
 ### 📊 Estadísticas de GitHub
 
+<a href="https://github.com/dawcarlosp">
 <img src="https://github-readme-stats.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark" />
-<br/>
-<img src="https://streak-stats.demolab.com?user=dawcarlosp&theme=github-dark&hide_border=true" />
+</a>
 
+<br/>
+
+<a href="https://github.com/dawcarlosp">
+<img src="https://streak-stats.demolab.com?user=dawcarlosp&theme=github-dark&hide_border=true" />
+</a>
 ---
 
 ### 📬 Contacto
@@ -63,8 +75,9 @@
 
 ### 📈 Actividad reciente
 
+<a href="https://github.com/dawcarlosp">
 [![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+</a>
 ---
 
 <a href="https://github.com/dawcarlosp">
