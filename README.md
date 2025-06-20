@@ -47,10 +47,11 @@
 
 ### 🧰 Herramientas favoritas
 
-<img src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
-
-![IntelliJ](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-red?logo=intellijidea&logoColor=white&style=for-the-badge)
-![NetBeans](https://img.shields.io/badge/IDE-NetBeans-blue?logo=apachenetbeanside&logoColor=white&style=for-the-badge)
+<span>
+ <img src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
+ <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/intell-ij.png" height="40" />
+ <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/netbeans.png" height="40" />
+</span>
 
 ---
 
