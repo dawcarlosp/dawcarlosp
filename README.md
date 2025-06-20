@@ -26,7 +26,7 @@
 #### 🎨 Frontend  
 <span>
   <img src="https://skillicons.dev/icons?i=html" height="40" />
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/css-new-logo.png" height="40" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/css_new_logo.png" height="40" />
   <img src="https://skillicons.dev/icons?i=js,react" height="40" />
 </span>
 
