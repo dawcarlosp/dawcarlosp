@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg"
        width="100%" style="display:block; margin:0; padding:0;" />
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil-aurora.svg"
-       width="100%" style="display:block; margin:0; padding:0;" />
+       width="100%" height="90%" style="display:block; margin:0; padding:0;" />
 </a>
 
 <p align="center">
