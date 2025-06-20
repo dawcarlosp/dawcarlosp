@@ -82,12 +82,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
 [![Docker](https://img.shields.io/badge/DockerHub-dawcarlosp-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/repositories/dawcarlosp)
 
----
-
-### 📄 Descargar CV
-
-[📥 Carlos_Pereira_Desarrollador_Web.pdf](https://github.com/dawcarlosp/dawcarlosp/raw/main/assets-perfil/Carlos_Pereira_Desarrollador_Web.pdf)
-
 
 <a href="https://github.com/dawcarlosp">
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/footerPerfil.svg" width="100%" height="auto" />
