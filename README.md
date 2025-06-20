@@ -25,7 +25,7 @@
 
 #### 🎨 Frontend  
 <img src="https://skillicons.dev/icons?i=html,css,js,react" />
-
+<img src="https://skillicons.dev/icons?i=css&theme=dark" />
 #### 🗃️ Base de Datos  
 <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 
