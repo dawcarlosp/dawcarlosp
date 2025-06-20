@@ -11,7 +11,7 @@
 
 ### 🎓 Sobre mí
 
-* 📍 Estudiante de **Desarrollo de Aplicaciones Web**
+* 📍 Desarrollador Web Full Stack Jr.  
 * 🛠️ Me apasiona crear soluciones reales con tecnologías modernas
 * 🚀 Actualmente enfocado en el back-end con **Java + Spring Boot** y explorando **React**
 * 🧩 Curioso, autodidacta y con muchas ganas de aprender y aportar
