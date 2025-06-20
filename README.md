@@ -64,8 +64,6 @@
 ### 📊 Estadísticas de GitHub
 
 <img src="https://github-readme-stats.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark" />
-<br/>
-<img src="https://streak-stats.demolab.com?user=dawcarlosp&theme=github-dark&hide_border=true" />
 
 ---
 
