@@ -1,9 +1,8 @@
 <a href="https://github.com/dawcarlosp">
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg" width="100%" height="250px" />
-</a>
-<a href="https://github.com/dawcarlosp">
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil-aurora.svg" width="100%" height="250px" />
 </a>
+
 
 <p align="center">
   <em>🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web moderno</em>
