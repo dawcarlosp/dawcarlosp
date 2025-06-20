@@ -57,6 +57,13 @@
 
 ---
 
+
+### 📈 Actividad reciente
+
+[![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
 ### 📬 Contacto
 
 [![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dawcarlospereira@gmail.com)
@@ -69,13 +76,6 @@
 
 [📥 Carlos_Pereira_Desarrollador_Web.pdf](https://github.com/dawcarlosp/dawcarlosp/raw/main/Carlos_Pereira_Desarrollador_Web.pdf)
 
----
-
-### 📈 Actividad reciente
-
-[![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
 
 <a href="https://github.com/dawcarlosp">
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footerPerfil.svg" width="100%" height="auto" />
