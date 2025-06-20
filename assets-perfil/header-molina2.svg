@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pulseGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ecc71" />
+      <stop offset="100%" stop-color="#27ae60" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0b0b0b" />
+
+  <!-- Línea principal -->
+  <path stroke="url(#pulseGreen)" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="
+        M0,100 L100,100 L200,60 L250,140 L300,100 L400,100 L500,80 L550,120 L600,100 L700,100 L800,90 L850,110 L900,100 L1000,100;
+        M0,100 L100,100 L200,130 L250,70 L300,100 L400,100 L500,120 L550,80 L600,100 L700,100 L800,110 L850,90 L900,100 L1000,100;
+        M0,100 L100,100 L200,60 L250,140 L300,100 L400,100 L500,80 L550,120 L600,100 L700,100 L800,90 L850,110 L900,100 L1000,100
+      "
+    />
+  </path>
+
+  <!-- Línea secundaria para profundidad -->
+  <path stroke="#1e8449" stroke-width="1" fill="none" opacity="0.3">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+        M0,110 L150,100 L300,120 L450,90 L600,110 L750,100 L900,105 L1000,100;
+        M0,90 L150,100 L300,80 L450,110 L600,90 L750,100 L900,95 L1000,100;
+        M0,110 L150,100 L300,120 L450,90 L600,110 L750,100 L900,105 L1000,100
+      "
+    />
+  </path>
+</svg>
