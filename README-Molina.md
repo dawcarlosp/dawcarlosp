@@ -29,5 +29,8 @@
 ### 📂 Proyecto destacado
  [TFG](https://github.com/camosama94/repositorioMolinaCarlos)
 
+### 📈 Lenguajes más usados
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=camosama94&layout=compact&theme=github_dark&langs_count=8" />
+
 ### 📊 Estadísticas de GitHub
 <img src="https://github-readme-stats.vercel.app/api?username=camosama94&show_icons=true&theme=github_dark" /> <br/> 
