@@ -27,7 +27,7 @@
 <span>
   <img src="https://skillicons.dev/icons?i=html" height="40" />
   <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/css_new_logo.png" height="40" />
-  <img src="https://skillicons.dev/icons?i=js,react" height="40" />
+  <img src="https://skillicons.dev/icons?i=js,react,tailwind,vite" height="40" />
 </span>
 
 #### 🗃️ Base de Datos  
