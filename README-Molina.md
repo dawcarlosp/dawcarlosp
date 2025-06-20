@@ -24,10 +24,10 @@
 <img src="https://skillicons.dev/icons?i=mysql" />
 
 #### ☁️ Cloud & DevOps  
-<img src="https://skillicons.dev/icons?i=docker,git,composer" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="40" style="margin-left: 10px;"/> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" height="40" style="margin-left: 10px;"/>
+<img src="https://skillicons.dev/icons?i=docker,git" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="40" style="margin-left: 10px;"/> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" height="40" style="margin-left: 10px;"/>
 
 ### 📂 Proyecto destacado
- [repositorioMolinaCarlos](https://github.com/camosama94/repositorioMolinaCarlos)
+ [TFG](https://github.com/camosama94/repositorioMolinaCarlos)
 
 ### 📊 Estadísticas de GitHub
-<img src="https://github-readme-stats.vercel.app/api?username=camosama94&show_icons=true&theme=github_dark" /> <br/> <img src="https://streak-stats.demolab.com?user=camosama94&theme=github-dark&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=camosama94&show_icons=true&theme=github_dark" /> <br/> 
