@@ -25,12 +25,16 @@
 
 #### 🎨 Frontend  
 <img src="https://skillicons.dev/icons?i=html,css,js,react" />
-<img src="https://skillicons.dev/icons?i=css&theme=dark" />
+
 #### 🗃️ Base de Datos  
 <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 
-#### ⚙️ DevOps / Herramientas  
-<img src="https://skillicons.dev/icons?i=docker,git" />
+#### ☁️ Cloud & DevOps  
+<img src="https://skillicons.dev/icons?i=docker,gcp" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="40"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" height="40"/>
+<img src="https://skillicons.dev/icons?i=git" />
+
 
 ---
 
