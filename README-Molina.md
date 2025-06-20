@@ -34,3 +34,7 @@
 
 ### 📊 Estadísticas de GitHub
 <img src="https://github-readme-stats.vercel.app/api?username=camosama94&show_icons=true&theme=github_dark" /> <br/> 
+
+### 📬 Contacto & redes
+
+[![Email](https://img.shields.io/badge/Email-carlos94spain4@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carlos94spain4@gmail.com)
