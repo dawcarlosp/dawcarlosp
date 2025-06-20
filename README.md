@@ -24,7 +24,11 @@
 <img src="https://skillicons.dev/icons?i=java,spring,php,laravel" />
 
 #### 🎨 Frontend  
-<img src="https://skillicons.dev/icons?i=html,css,js,react" />
+<span>
+  <img src="https://skillicons.dev/icons?i=html" height="40" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/css-new-logo.png" height="40" />
+  <img src="https://skillicons.dev/icons?i=js,react" height="40" />
+</span>
 
 #### 🗃️ Base de Datos  
 <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
