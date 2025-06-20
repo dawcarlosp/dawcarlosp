@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <em>🧠 Siempre aprendiendo | 💻 Estudiante apasionado por el desarrollo web moderno</em>
+  <em>🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web moderno</em>
 </p>
 
 ---
