@@ -1,5 +1,5 @@
 <a href="https://github.com/dawcarlosp">
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg"
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg  height:auto; aspect-ratio: 12 / 2.5;"
        width="100%" />
 </a>
 
