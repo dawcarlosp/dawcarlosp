@@ -7,13 +7,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-       position: relative;
+      position: relative;
       margin: 0;
       font-family: 'Roboto', sans-serif;
       background: linear-gradient(to bottom right, #0B132B, #1B263B);
       color: white;
       overflow-x: hidden;
     }
+
     header {
       position: relative;
       height: 300px;
@@ -24,10 +25,12 @@
       justify-content: center;
       animation: pulse 10s infinite ease-in-out;
     }
+
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.02); }
     }
+
     header::after {
       content: '';
       position: absolute;
@@ -40,45 +43,61 @@
       animation: rotate 60s linear infinite;
       opacity: 0.05;
     }
+
     @keyframes rotate {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
-    .wrapper {
-      max-width: 960px;
-      margin: auto;
-      padding: 2rem;
-    }
+
     h1 {
       text-align: center;
       font-size: 2.5rem;
       background: linear-gradient(90deg, #1aff8c, #00f7ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: slideGradient 5s linear infinite;
+      animation: slideGradient 5s linear infinite, slideDown 1.2s ease-out;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
     }
+
     @keyframes slideGradient {
       to { background-position: 200% center; }
     }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .wrapper {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+
     section {
-      margin-top: 3rem;
+      margin-top: 4.5rem;
       opacity: 0;
       transform: translateY(40px);
       transition: all 1s ease;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.4);
     }
+
     section.visible {
       opacity: 1;
       transform: translateY(0);
     }
+
     .skills img {
       height: 40px;
       margin: 0.5rem;
       transition: transform 0.3s ease;
     }
+
     .skills img:hover {
       transform: scale(1.2);
     }
-    .links a, .contact a {
+
+    .links a, .contact a, .cta {
       display: inline-block;
       margin: 0.5rem;
       padding: 0.75rem 1.5rem;
@@ -89,22 +108,25 @@
       text-decoration: none;
       transition: background 0.3s ease, transform 0.3s ease;
     }
-    .links a:hover, .contact a:hover {
+
+    .links a:hover, .contact a:hover, .cta:hover {
       background: #1aff8c44;
       transform: scale(1.05);
     }
+
     @media (max-width: 768px) {
       h1 { font-size: 2rem; }
       .skills img { height: 32px; }
     }
+
     #tsparticles {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Esto es clave */
-  top: 0;
-  left: 0;
-}
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
   </style>
 </head>
 <body>
@@ -158,9 +180,11 @@
       <a href="mailto:dawcarlospereira@gmail.com" target="_blank">Email</a>
       <a href="https://es.linkedin.com/in/carlos-pereira-285815334" target="_blank">LinkedIn</a>
       <a href="https://hub.docker.com/repositories/dawcarlosp" target="_blank">DockerHub</a>
+      <a href="assets/CV-CarlosPereira.pdf" class="cta" download>Descargar CV</a>
     </section>
   </div>
-<div id="tsparticles"></div>
+
+  <div id="tsparticles"></div>
 
   <script>
     const observer = new IntersectionObserver(entries => {
@@ -178,29 +202,32 @@
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
-<script>
-  tsParticles.load("tsparticles", {
-    background: { color: { value: "#0B132B" } },
-    fpsLimit: 60,
-    interactivity: {
-      events: { onClick: { enable: true, mode: "push" }, onHover: { enable: true, mode: "repulse" }, resize: true },
-      modes: {
-        push: { quantity: 4 },
-        repulse: { distance: 100, duration: 0.4 }
-      }
-    },
-    particles: {
-      color: { value: "#1aff8c" },
-      links: { color: "#1aff8c", distance: 150, enable: true, opacity: 0.5, width: 1 },
-      move: { enable: true, speed: 2, outModes: "bounce" },
-      number: { value: 80, density: { enable: true, area: 800 } },
-      opacity: { value: 0.5 },
-      shape: { type: "circle" },
-      size: { value: { min: 1, max: 5 } }
-    },
-    detectRetina: true
-  });
-</script>
-
+  <script>
+    tsParticles.load("tsparticles", {
+      background: { color: { value: "#0B132B" } },
+      fpsLimit: 60,
+      interactivity: {
+        events: {
+          onClick: { enable: true, mode: "push" },
+          onHover: { enable: true, mode: "repulse" },
+          resize: true
+        },
+        modes: {
+          push: { quantity: 4 },
+          repulse: { distance: 100, duration: 0.4 }
+        }
+      },
+      particles: {
+        color: { value: "#1aff8c" },
+        links: { color: "#1aff8c", distance: 150, enable: true, opacity: 0.5, width: 1 },
+        move: { enable: true, speed: 2, outModes: "bounce" },
+        number: { value: 80, density: { enable: true, area: 800 } },
+        opacity: { value: 0.5 },
+        shape: { type: "circle" },
+        size: { value: { min: 1, max: 5 } }
+      },
+      detectRetina: true
+    });
+  </script>
 </body>
 </html>
