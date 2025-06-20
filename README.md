@@ -1,5 +1,5 @@
 <a href="https://github.com/dawcarlosp">
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/headerPerfil.svg" width="100%" height="250px" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg" width="100%" height="250px" />
 </a>
 
 
@@ -26,7 +26,7 @@
 #### 🎨 Frontend  
 <span>
   <img src="https://skillicons.dev/icons?i=html" height="40" />
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/css_new_logo.png" height="40" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/css_new_logo.png" height="40" />
   <img src="https://skillicons.dev/icons?i=js,react,tailwind,vite" height="40" />
 </span>
 
@@ -85,9 +85,9 @@
 
 ### 📄 Descargar CV
 
-[📥 Carlos_Pereira_Desarrollador_Web.pdf](https://github.com/dawcarlosp/dawcarlosp/raw/main/Carlos_Pereira_Desarrollador_Web.pdf)
+[📥 Carlos_Pereira_Desarrollador_Web.pdf](https://github.com/dawcarlosp/dawcarlosp/raw/main/assets-perfil/Carlos_Pereira_Desarrollador_Web.pdf)
 
 
 <a href="https://github.com/dawcarlosp">
-  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/footerPerfil.svg" width="100%" height="auto" />
+  <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/footerPerfil.svg" width="100%" height="auto" />
 </a>
