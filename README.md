@@ -20,7 +20,17 @@
 
 ### 💡 Stack actual
 
-<img src="https://skillicons.dev/icons?i=java,spring,php,laravel,react,mysql,docker,html,css,git" />
+#### 🔧 Backend  
+<img src="https://skillicons.dev/icons?i=java,spring,php,laravel" />
+
+#### 🎨 Frontend  
+<img src="https://skillicons.dev/icons?i=html,css,js,react" />
+
+#### 🗃️ Base de Datos  
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+
+#### ⚙️ DevOps / Herramientas  
+<img src="https://skillicons.dev/icons?i=docker,git" />
 
 ---
 
