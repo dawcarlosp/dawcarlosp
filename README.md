@@ -64,7 +64,7 @@
 
 ---
 
-### 📬 Contacto
+### 📬 Contacto & redes
 
 [![Email](https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dawcarlospereira@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://es.linkedin.com/in/carlos-pereira-285815334)
