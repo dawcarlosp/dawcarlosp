@@ -8,155 +8,157 @@
   <style>
     body {
       margin: 0;
-      background-color: #0B132B;
       font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom right, #0B132B, #1B263B);
       color: white;
-      scroll-behavior: smooth;
+      overflow-x: hidden;
     }
-    section {
+    header {
+      position: relative;
+      height: 300px;
+      background: radial-gradient(circle at center, #1aff8c33, #0B132B);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulse 10s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.02);
+      }
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      width: 1000px;
+      height: 1000px;
+      background: conic-gradient(#1aff8c, transparent);
+      top: -400px;
+      left: -400px;
+      border-radius: 50%;
+      animation: rotate 60s linear infinite;
+      opacity: 0.05;
+    }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .wrapper {
       max-width: 960px;
       margin: auto;
       padding: 2rem;
-      opacity: 0;
-      transform: translateY(30px);
-      animation: fadeSlideIn 1s ease-out forwards;
+      animation: fadeInUp 1s ease-out;
     }
-    section:nth-child(even) {
-      animation-delay: 0.4s;
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
-    h2 {
-      border-bottom: 1px solid #1B263B;
-      padding-bottom: 0.5rem;
-    }
-    img.skill {
-      height: 40px;
-      margin: 0.3rem;
-    }
-    .center {
+    h1 {
       text-align: center;
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #1aff8c, #00f7ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: slideGradient 5s linear infinite;
     }
-    .badge {
-      margin: 0.4rem;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #1B263B;
-      margin: 2rem 0;
-    }
-    .responsive-img {
-      width: 100%;
-      height: auto;
-      aspect-ratio: 12 / 2.5;
-      display: block;
-      margin: 0 auto;
-    }
-    @keyframes fadeSlideIn {
+    @keyframes slideGradient {
       to {
-        opacity: 1;
-        transform: translateY(0);
+        background-position: 200% center;
       }
     }
-    .wow-button {
+    section {
+      margin-top: 3rem;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+    section:nth-of-type(even) {
+      animation-delay: 0.4s;
+    }
+    .skills img {
+      height: 40px;
+      margin: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+    .skills img:hover {
+      transform: scale(1.2);
+    }
+    .links a {
       display: inline-block;
-      padding: 1rem 2rem;
-      margin: 1rem auto;
-      font-size: 1.2rem;
-      background: linear-gradient(90deg, #00ffcc, #33ff66);
-      border: none;
-      border-radius: 50px;
-      color: #0B132B;
-      font-weight: bold;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #1aff8c22;
+      border: 1px solid #1aff8c;
+      border-radius: 6px;
+      color: #1aff8c;
       text-decoration: none;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 15px rgba(0, 255, 204, 0.4);
+      transition: background 0.3s ease, transform 0.3s ease;
     }
-    .wow-button:hover {
+    .links a:hover {
+      background: #1aff8c44;
       transform: scale(1.05);
-      box-shadow: 0 6px 25px rgba(0, 255, 204, 0.6);
     }
-    .links-center {
-      text-align: center;
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .skills img {
+        height: 32px;
+      }
     }
   </style>
 </head>
 <body>
-  <a href="https://github.com/dawcarlosp">
-    <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/headerPerfil.svg" class="responsive-img" alt="Header animado" />
-  </a>
+  <header>
+    <h1>Portfolio de Carlos Pereira</h1>
+  </header>
 
-  <section class="center">
-    <em>🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web moderno</em>
-  </section>
+  <div class="wrapper">
+    <section class="intro">
+      <p style="text-align: center; font-style: italic">🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web moderno</p>
+    </section>
 
-  <section class="links-center">
-    <a href="https://github.com/dawcarlosp" target="_blank" class="wow-button">🌐 Ver perfil de GitHub</a>
-    <a href="https://github.com/dawcarlosp/repositorioPereira" target="_blank" class="wow-button">📘 Ver TFG</a>
-  </section>
+    <section>
+      <h2>🎓 Sobre mí</h2>
+      <ul>
+        <li>📍 Desarrollador Web Full Stack Jr.</li>
+        <li>🛠️ Me apasiona crear soluciones reales con tecnologías modernas</li>
+        <li>🚀 Back-end con <strong>Java + Spring Boot</strong> y explorando <strong>React</strong></li>
+        <li>🧩 Curioso, autodidacta y con muchas ganas de aprender y aportar</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>🎓 Sobre mí</h2>
-    <ul>
-      <li>📍 Desarrollador Web Full Stack Jr.</li>
-      <li>🛠️ Me apasiona crear soluciones reales con tecnologías modernas</li>
-      <li>🚀 Actualmente enfocado en el back-end con <strong>Java + Spring Boot</strong> y explorando <strong>React</strong></li>
-      <li>🧩 Curioso, autodidacta y con muchas ganas de aprender y aportar</li>
-    </ul>
-  </section>
+    <section class="skills">
+      <h2>💡 Stack actual</h2>
+      <div>
+        <strong>Backend:</strong><br>
+        <img src="https://skillicons.dev/icons?i=java,spring,php,laravel" />
+      </div>
+      <div>
+        <strong>Frontend:</strong><br>
+        <img src="https://skillicons.dev/icons?i=html" />
+        <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/css_new_logo.png" height="40" />
+        <img src="https://skillicons.dev/icons?i=js,react,tailwind,bootstrap,vite" />
+      </div>
+      <div>
+        <strong>Base de Datos:</strong><br>
+        <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+      </div>
+      <div>
+        <strong>Cloud & DevOps:</strong><br>
+        <img src="https://skillicons.dev/icons?i=docker,gcp,git" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="40" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" height="40" />
+      </div>
+    </section>
 
-  <section>
-    <h2>💡 Stack actual</h2>
-    <p><strong>Backend</strong><br>
-      <img class="skill" src="https://skillicons.dev/icons?i=java,spring,php,laravel" alt="backend stack" />
-    </p>
-    <p><strong>Frontend</strong><br>
-      <img class="skill" src="https://skillicons.dev/icons?i=html" />
-      <img class="skill" src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/css_new_logo.png" />
-      <img class="skill" src="https://skillicons.dev/icons?i=js,react,tailwind,bootstrap,vite" />
-    </p>
-    <p><strong>Base de Datos</strong><br>
-      <img class="skill" src="https://skillicons.dev/icons?i=mysql,mongodb" />
-    </p>
-    <p><strong>Cloud & DevOps</strong><br>
-      <img class="skill" src="https://skillicons.dev/icons?i=docker,gcp" />
-      <img class="skill" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
-      <img class="skill" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" />
-      <img class="skill" src="https://skillicons.dev/icons?i=git" />
-    </p>
-  </section>
-
-  <section>
-    <h2>🧰 Herramientas favoritas</h2>
-    <img class="skill" src="https://skillicons.dev/icons?i=vscode,postman,mysql" />
-    <img class="skill" src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/intell-ij.png" />
-    <img class="skill" src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/netbeans.png" />
-  </section>
-
-  <section>
-    <h2>📈 Lenguajes más usados</h2>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawcarlosp&layout=compact&theme=github_dark&langs_count=8" class="responsive-img" />
-  </section>
-
-  <section>
-    <h2>📊 Estadísticas de GitHub</h2>
-    <img src="https://github-readme-stats.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark" class="responsive-img" />
-  </section>
-
-  <section>
-    <h2>📈 Actividad reciente</h2>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true" class="responsive-img" />
-  </section>
-
-  <section>
-    <h2>📬 Contacto & redes</h2>
-    <a href="mailto:dawcarlospereira@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/Email-dawcarlospereira@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" class="badge" />
-    </a>
-    <a href="https://es.linkedin.com/in/carlos-pereira-285815334" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Carlos%20Pereira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" class="badge" />
-    </a>
-    <a href="https://hub.docker.com/repositories/dawcarlosp" target="_blank">
-      <img src="https://img.shields.io/badge/DockerHub-dawcarlosp-2496ED?style=for-the-badge&logo=docker&logoColor=white" class="badge" />
-    </a>
-  </section>
+    <section class="links">
+      <h2>🔗 Enlaces destacados</h2>
+      <a href="https://github.com/dawcarlosp" target="_blank">GitHub</a>
+      <a href="https://github.com/dawcarlosp/repositorioPereira" target="_blank">TFG: repositorioPereira</a>
+    </section>
+  </div>
 </body>
 </html>
