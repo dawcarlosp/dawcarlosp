@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carlos Pereira | Portfolio</title>
+  <meta name="description"
+    content="Portfolio de Carlos Pereira, desarrollador web Full Stack Jr. especializado en Java, Spring Boot, PHP, React y tecnologías modernas. Proyectos reales, CV descargable y enlaces a GitHub.">
+  <meta name="keywords"
+    content="Carlos Pereira, desarrollador web, portfolio, Java, Spring Boot, PHP, React, Full Stack, TFG, GitHub, LinkedIn">
+  <meta name="author" content="Carlos Pereira">
+  <link rel="icon" href="https://dawcarlosp.github.io/assets-perfil/favicon.ico" type="image/x-icon">
+
+  <meta property="og:title" content="Portfolio de Carlos Pereira">
+  <meta property="og:description"
+    content="Descubre el portfolio de Carlos Pereira, desarrollador web full stack con experiencia en Java, React, Spring Boot y más.">
+  <meta property="og:image" content="https://dawcarlosp.github.io/assets-perfil/preview.jpg">
+  <meta property="og:url" content="https://www.dawcarlosp.com">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+
+
+  <title>Desarrollador Web Full Stack | Carlos Pereira - Java, Spring Boot, React</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -27,8 +44,15 @@
     }
 
     @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.02); }
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.02);
+      }
     }
 
     header::after {
@@ -45,8 +69,13 @@
     }
 
     @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     h1 {
@@ -56,16 +85,25 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: slideGradient 5s linear infinite, slideDown 1.2s ease-out;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     }
 
     @keyframes slideGradient {
-      to { background-position: 200% center; }
+      to {
+        background-position: 200% center;
+      }
     }
 
     @keyframes slideDown {
-      from { opacity: 0; transform: translateY(-50px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .wrapper {
@@ -79,7 +117,7 @@
       opacity: 0;
       transform: translateY(40px);
       transition: all 1s ease;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     }
 
     section.visible {
@@ -97,7 +135,9 @@
       transform: scale(1.2);
     }
 
-    .links a, .contact a, .cta {
+    .links a,
+    .contact a,
+    .cta {
       display: inline-block;
       margin: 0.5rem;
       padding: 0.75rem 1.5rem;
@@ -109,14 +149,21 @@
       transition: background 0.3s ease, transform 0.3s ease;
     }
 
-    .links a:hover, .contact a:hover, .cta:hover {
+    .links a:hover,
+    .contact a:hover,
+    .cta:hover {
       background: #1aff8c44;
       transform: scale(1.05);
     }
 
     @media (max-width: 768px) {
-      h1 { font-size: 2rem; }
-      .skills img { height: 32px; }
+      h1 {
+        font-size: 2rem;
+      }
+
+      .skills img {
+        height: 32px;
+      }
     }
 
     #tsparticles {
@@ -129,6 +176,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Portfolio de Carlos Pereira</h1>
@@ -136,7 +184,8 @@
 
   <div class="wrapper">
     <section class="intro">
-      <p style="text-align: center; font-style: italic">🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web moderno</p>
+      <p style="text-align: center; font-style: italic">🧠 Siempre aprendiendo | 💻 Apasionado por el desarrollo web
+        moderno</p>
     </section>
 
     <section>
@@ -156,7 +205,8 @@
       </div>
       <div><strong>Frontend:</strong><br>
         <img src="https://skillicons.dev/icons?i=html" />
-        <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/css_new_logo.png" height="40" />
+        <img src="https://raw.githubusercontent.com/dawcarlosp/dawcarlosp/main/assets-perfil/css_new_logo.png"
+          height="40" />
         <img src="https://skillicons.dev/icons?i=js,react,tailwind,bootstrap,vite" />
       </div>
       <div><strong>Base de Datos:</strong><br>
@@ -164,8 +214,10 @@
       </div>
       <div><strong>Cloud & DevOps:</strong><br>
         <img src="https://skillicons.dev/icons?i=docker,gcp,git" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" height="40" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" height="40" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+          height="40" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg"
+          height="40" />
       </div>
     </section>
 
@@ -230,4 +282,5 @@
     });
   </script>
 </body>
+
 </html>
