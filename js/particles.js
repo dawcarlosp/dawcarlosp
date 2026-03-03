@@ -16,7 +16,7 @@ tsParticles.load("tsparticles", {
         color: { value: "#1aff8c" },
         links: { color: "#1aff8c", distance: 150, enable: true, opacity: 0.5, width: 1 },
         move: { enable: true, speed: 2, outModes: "bounce" },
-        number: { value: 80, density: { enable: true, area: 800 } },
+        number: { value: 80, density: { enable: true, area: 800 }, limit: 50 },
         opacity: { value: 0.5 },
         shape: { type: "circle" },
         size: { value: { min: 1, max: 5 } }
