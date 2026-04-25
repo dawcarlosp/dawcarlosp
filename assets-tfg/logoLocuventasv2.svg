@@ -1,34 +1,28 @@
 <svg viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
   <defs>
     <filter id="shadowGlow" width="200%" height="200%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#a855f7" flood-opacity="0.2" />
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#a855f7" flood-opacity="0.2" />
     </filter>
-
     <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#a855f7" flood-opacity="0.5" />
-    </filter>
-
-    <filter id="textMdShadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.4" />
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#a855f7" flood-opacity="0.6" />
     </filter>
   </defs>
 
-  <g transform="translate(90, 30)">
+  <g transform="translate(160, 60)">
     
-    <rect x="-86.5" y="-27.5" width="315" height="115" rx="16" 
+    <rect x="-105" y="-28" width="210" height="56" rx="16" 
           fill="#18181b" 
           stroke="#a855f7" 
           stroke-width="2" 
           stroke-opacity="0.3" 
           filter="url(#shadowGlow)" />
     
-    <text x="70" y="50" text-anchor="middle" 
-          font-family="system-ui, -apple-system, sans-serif" 
+    <text x="0" y="8" text-anchor="middle" 
+          font-family="system-ui, sans-serif" 
           font-weight="800" 
-          font-size="50" 
+          font-size="24" 
           letter-spacing="-0.025em">
-      
-      <tspan fill="#f4f4f5" filter="url(#textMdShadow)">Locu</tspan><tspan fill="#a855f7" filter="url(#textGlow)">Ventas</tspan>
+      <tspan fill="#f4f4f5">Locu</tspan><tspan fill="#a855f7" filter="url(#textGlow)">Ventas</tspan>
     </text>
     
   </g>
