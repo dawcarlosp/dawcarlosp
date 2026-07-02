@@ -63,12 +63,12 @@ Sistema de punto de venta full-stack que estoy construyendo de forma iterativa:
 ---
 
 ### 📈 Lenguajes más usados
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawcarlosp&layout=compact&theme=github_dark&langs_count=8&cache_seconds=86400" />
+<img src="https://github-readme-stats-tau-ten-51.vercel.app/api/top-langs/?username=dawcarlosp&layout=compact&theme=github_dark&langs_count=8&cache_seconds=86400" />
 
 ---
 
 ### 📊 Estadísticas de GitHub
-<img src="https://github-readme-stats.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark&count_private=true&cache_seconds=86400" />
+<img src="https://github-readme-stats-tau-ten-51.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark&count_private=true&cache_seconds=86400" />
 
 ---
 
