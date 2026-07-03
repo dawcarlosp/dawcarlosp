@@ -11,7 +11,7 @@
 
 ### 🎓 Sobre mí
 
-* 📍 Desarrollador Web Full Stack Jr., aprendiendo construyendo software real
+* 📍 **Desarrollador Web Full Stack Jr.**, aprendiendo construyendo software real
 * 🛠️ Ahora mismo desarrollo **LocuVentas**, un POS full-stack (Spring Boot + React/Vite/TS en monorepo) desde cero: arquitectura por features, migración completa de JS a TypeScript sin `any`, integración con impresoras térmicas
 * 🎓 En paralelo curso web technologies, OOP y frameworks backend (Angular, ASP.NET Core), aplicando cada tema a proyectos propios en vez de solo ejercicios
 * 🧩 Prefiero código limpio y escalable antes que la solución rápida — documento arquitectura y patrones a medida que avanzo
@@ -23,7 +23,7 @@
 Sistema de punto de venta full-stack que estoy construyendo de forma iterativa:
 - **Backend**: Spring Boot + Springdoc OpenAPI/Swagger con auth JWT
 - **Frontend**: React + Vite + TypeScript, arquitectura por features (`features/auth`, `features/ventas`...)
-- Convenciones estrictas: sin `any`, `import type`, discriminated unions, documentación en `ARCHITECTURE.md` / `PATTERNS.md`
+- **Convenciones estrictas**: sin `any`, `import type`, discriminated unions, documentación en `ARCHITECTURE.md` / `PATTERNS.md`
 
 ---
 
@@ -62,18 +62,22 @@ Sistema de punto de venta full-stack que estoy construyendo de forma iterativa:
 
 ---
 
-### 📈 Lenguajes más usados
-<img src="https://github-readme-stats-tau-ten-51.vercel.app/api/top-langs/?username=dawcarlosp&layout=compact&theme=github_dark&langs_count=8&cache_seconds=86400" />
+### 📊 Estadísticas y Actividad
 
----
+<p align="center">
+  <img src="https://github-readme-stats-tau-ten-51.vercel.app/api?username=dawcarlosp&show_icons=true&theme=tokyonight&count_private=true&rank_icon=github&border_radius=10" height="195" />
+  <img src="https://github-readme-stats-tau-ten-51.vercel.app/api/top-langs/?username=dawcarlosp&layout=donut&theme=tokyonight&langs_count=5&border_radius=10" height="195" />
+</p>
 
-### 📊 Estadísticas de GitHub
-<img src="https://github-readme-stats-tau-ten-51.vercel.app/api?username=dawcarlosp&show_icons=true&theme=github_dark&count_private=true&cache_seconds=86400" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dawcarlosp&theme=tokyonight&hide_border=true" height="180" />
+</p>
 
----
-
-### 📈 Actividad reciente
-[![dawcarlosp's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dawcarlosp&theme=github-dark&hide_border=true" width="100%" />
+  </a>
+</p>
 
 ---
 
