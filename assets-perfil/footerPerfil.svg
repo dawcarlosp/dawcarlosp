@@ -29,10 +29,11 @@
       </feMerge>
     </filter>
 
-    <!-- Estelas fugaces CORREGIDAS (Invertidas para que la cola sea invisible y la cabeza brillante) -->
+    <!-- Gradiente de la estela unificado (Igual que en el Header) -->
     <linearGradient id="trailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
     </linearGradient>
   </defs>
 
@@ -45,16 +46,13 @@
   <circle cx="900" cy="140" r="1.1" fill="#fffacd"/>
   <circle cx="100" cy="80" r="1.1" fill="#ffffff"/>
 
-  <!-- Estrella fugaz 1 (Continuidad desde la izquierda a 45°) -->
+  <!-- Estrella 1 Sincronizada: Cae hacia la derecha a 45° -->
   <g>
-    <!-- Mantiene los tiempos del header -->
-    <animate attributeName="opacity" values="0;1;0" dur="2.5s" begin="0s" repeatCount="indefinite"/>
-    
-    <!-- Entra desde arriba (Y=-550) y cruza hacia abajo a la derecha (Y=550) -->
-    <!-- Como el ViewBox es 1200x600, los valores en X e Y son proporcionales para mantener los 45° -->
-    <animateTransform attributeName="transform" type="translate" from="100 -550" to="1200 550" 
-      dur="2.5s" begin="0s" repeatCount="indefinite"/>
-      
+    <!-- Mismo tiempo (3s) y mismo inicio (0s) -->
+    <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+    <!-- Compensamos -500px en Y por el espacio entre header y footer. Viaja hasta cruzar las olas (Y=600) -->
+    <animateTransform attributeName="transform" type="translate" from="100 -350" to="1300 650"
+      dur="3s" begin="0s" repeatCount="indefinite" />
     <g transform="rotate(45)">
       <line x1="-60" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round"/>
       <circle cx="0" cy="0" r="3" fill="white">
@@ -63,14 +61,13 @@
     </g>
   </g>
 
-  <!-- Estrella fugaz 2 (Continuidad desde la derecha a 135°) -->
+  <!-- Estrella 2 Sincronizada: Cae hacia la izquierda a 135° -->
   <g>
-    <animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="1s" repeatCount="indefinite"/>
-    
-    <!-- Entra desde arriba a la derecha y cruza hacia abajo a la izquierda -->
-    <animateTransform attributeName="transform" type="translate" from="1100 -550" to="0 550" 
-      dur="2.7s" begin="1s" repeatCount="indefinite"/>
-      
+    <!-- Mismo tiempo (3.5s) y mismo inicio (1s) -->
+    <animate attributeName="opacity" values="0;1;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+    <!-- Compensamos -500px en Y -->
+    <animateTransform attributeName="transform" type="translate" from="1100 -350" to="-300 1050"
+      dur="3.5s" begin="1s" repeatCount="indefinite" />
     <g transform="rotate(135)">
       <line x1="-50" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="1.5" stroke-linecap="round"/>
       <circle cx="0" cy="0" r="2.5" fill="white">
