@@ -18,20 +18,7 @@
       <stop offset="0%" stop-color="#fcd5ce" />
       <stop offset="100%" stop-color="#f28482" />
     </radialGradient>
-    <linearGradient id="trailGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Fondo -->
-  <rect width="100%" height="100%" fill="url(#skyGradient)" />
-
-  <!-- Estrellas fugaces -->
-<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" style="background-color: #0f111a;">
-  
-  <!-- DEFINICIÓN DE LA ESTELA (EL DEGRADADO) -->
-  <defs>
+    <!-- Gradiente de la estela unificado -->
     <linearGradient id="trailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3" />
@@ -39,41 +26,38 @@
     </linearGradient>
   </defs>
 
-  <!-- Estrella 1: Cae hacia la derecha, llegando hasta abajo del todo -->
+  <!-- Fondo -->
+  <rect width="100%" height="100%" fill="url(#skyGradient)" />
+
+  <!-- Estrella 1: Cae hacia la derecha a 45° -->
   <g>
-    <!-- Le damos un poco más de tiempo (1.5s) porque ahora viaja más lejos -->
-    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
-    
-    <!-- Baja desde Y=-50 hasta Y=550 (saliendo del lienzo por abajo) -->
-    <!-- Para mantener los 45°, X también avanza 600px (de 100 a 700) -->
-    <animateTransform attributeName="transform" type="translate" from="100 -50" to="700 550"
-      dur="1.5s" begin="0s" repeatCount="indefinite" />
-      
+    <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+    <!-- Viaja de -100 a 1100 en Y (mucha distancia para conectar con el footer) -->
+    <animateTransform attributeName="transform" type="translate" from="100 -100" to="1300 1100"
+      dur="3s" begin="0s" repeatCount="indefinite" />
     <g transform="rotate(45)">
-      <line x1="-50" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round" />
-      <circle cx="0" cy="0" r="2.8" fill="white" />
+      <line x1="-60" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round" />
+      <circle cx="0" cy="0" r="3" fill="white">
+        <animate attributeName="r" values="3;4.5;3" dur="0.4s" repeatCount="indefinite"/>
+      </circle>
     </g>
   </g>
 
-  <!-- Estrella 2: Cae hacia la izquierda, llegando hasta abajo del todo -->
+  <!-- Estrella 2: Cae hacia la izquierda a 135° -->
   <g>
-    <animate attributeName="opacity" values="0;1;0" dur="1.7s" begin="1s" repeatCount="indefinite"/>
-    
-    <!-- Baja desde Y=-50 hasta Y=550 (saliendo del lienzo por abajo) -->
-    <!-- Para mantener los 135°, X retrocede 600px (de 900 a 300) -->
-    <animateTransform attributeName="transform" type="translate" from="900 -50" to="300 550"
-      dur="1.7s" begin="1s" repeatCount="indefinite" />
-      
+    <animate attributeName="opacity" values="0;1;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+    <!-- Viaja de -100 a 1300 en Y -->
+    <animateTransform attributeName="transform" type="translate" from="1100 -100" to="-300 1300"
+      dur="3.5s" begin="1s" repeatCount="indefinite" />
     <g transform="rotate(135)">
-      <line x1="-40" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="1.6" stroke-linecap="round" />
-      <circle cx="0" cy="0" r="2.3" fill="white" />
+      <line x1="-50" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="0" cy="0" r="2.5" fill="white">
+        <animate attributeName="r" values="2.5;3.5;2.5" dur="0.4s" repeatCount="indefinite"/>
+      </circle>
     </g>
   </g>
-  
-</svg>
 
-  
-  <!-- Estrellas -->
+  <!-- Estrellas de fondo -->
   <circle cx="225" cy="10" r="1.0" fill="#ffe0e0" />
   <circle cx="658" cy="18" r="1.3" fill="#f0f8ff" />
   <circle cx="660" cy="28" r="1.5" fill="#f0f8ff" />
@@ -151,7 +135,6 @@
     <tspan id="l23" visibility="hidden" dx="-15">.</tspan>
     <tspan id="cursor" visibility="hidden">|</tspan>
 
-    <!-- Animación de aparición del texto -->
     <animate attributeName="visibility" values="visible" begin="0s" dur="0.1s" fill="freeze" href="#l1" />
     <animate attributeName="visibility" values="visible" begin="0.15s" dur="0.1s" fill="freeze" href="#l2" />
     <animate attributeName="visibility" values="visible" begin="0.3s" dur="0.1s" fill="freeze" href="#l3" />
