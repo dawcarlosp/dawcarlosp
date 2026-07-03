@@ -28,21 +28,50 @@
   <rect width="100%" height="100%" fill="url(#skyGradient)" />
 
   <!-- Estrellas fugaces -->
-  <g opacity="0" transform="rotate(-15)">
-    <animate attributeName="opacity" values="0;1;0" dur="1s" begin="3s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" from="0 20" to="800 70"
-      dur="1s" begin="3s" repeatCount="indefinite" />
-    <line x1="0" y1="0" x2="50" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round" />
-    <circle cx="50" cy="0" r="2.8" fill="white" />
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" style="background-color: #0f111a;">
+  
+  <!-- DEFINICIÓN DE LA ESTELA (EL DEGRADADO) -->
+  <defs>
+    <linearGradient id="trailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Estrella 1: Cae hacia la derecha, llegando hasta abajo del todo -->
+  <g>
+    <!-- Le damos un poco más de tiempo (1.5s) porque ahora viaja más lejos -->
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+    
+    <!-- Baja desde Y=-50 hasta Y=550 (saliendo del lienzo por abajo) -->
+    <!-- Para mantener los 45°, X también avanza 600px (de 100 a 700) -->
+    <animateTransform attributeName="transform" type="translate" from="100 -50" to="700 550"
+      dur="1.5s" begin="0s" repeatCount="indefinite" />
+      
+    <g transform="rotate(45)">
+      <line x1="-50" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round" />
+      <circle cx="0" cy="0" r="2.8" fill="white" />
+    </g>
   </g>
 
-  <g opacity="0" transform="rotate(12)">
-    <animate attributeName="opacity" values="0;1;0" dur="1.1s" begin="7s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" from="1000 20" to="300 -20"
-      dur="1.1s" begin="7s" repeatCount="indefinite" />
-    <line x1="0" y1="0" x2="40" y2="0" stroke="url(#trailGradient)" stroke-width="1.6" stroke-linecap="round" />
-    <circle cx="40" cy="0" r="2.3" fill="white" />
+  <!-- Estrella 2: Cae hacia la izquierda, llegando hasta abajo del todo -->
+  <g>
+    <animate attributeName="opacity" values="0;1;0" dur="1.7s" begin="1s" repeatCount="indefinite"/>
+    
+    <!-- Baja desde Y=-50 hasta Y=550 (saliendo del lienzo por abajo) -->
+    <!-- Para mantener los 135°, X retrocede 600px (de 900 a 300) -->
+    <animateTransform attributeName="transform" type="translate" from="900 -50" to="300 550"
+      dur="1.7s" begin="1s" repeatCount="indefinite" />
+      
+    <g transform="rotate(135)">
+      <line x1="-40" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="1.6" stroke-linecap="round" />
+      <circle cx="0" cy="0" r="2.3" fill="white" />
+    </g>
   </g>
+  
+</svg>
+
   
   <!-- Estrellas -->
   <circle cx="225" cy="10" r="1.0" fill="#ffe0e0" />
@@ -149,4 +178,3 @@
     <animate attributeName="visibility" values="visible;hidden;visible" begin="3.6s" dur="1s" repeatCount="indefinite" href="#cursor" />
   </text>
 </svg>
-
