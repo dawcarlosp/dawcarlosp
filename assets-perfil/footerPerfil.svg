@@ -51,7 +51,7 @@
     <!-- Mismo tiempo (3s) y mismo inicio (0s) -->
     <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0s" repeatCount="indefinite"/>
     <!-- Compensamos -500px en Y por el espacio entre header y footer. Viaja hasta cruzar las olas (Y=600) -->
-    <animateTransform attributeName="transform" type="translate" from="100 -350" to="1300 650"
+    <animateTransform attributeName="transform" type="translate" from="100 -350" to="1300 850"
       dur="3s" begin="0s" repeatCount="indefinite" />
     <g transform="rotate(45)">
       <line x1="-60" y1="0" x2="0" y2="0" stroke="url(#trailGradient)" stroke-width="2" stroke-linecap="round"/>
