@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  <em>🧠 Construyendo cosas que uso yo mismo | 💻 De Java/Spring a TypeScript y vuelta</em>
+  <em>🧠 Construyendo cosas | 💻 De Java/Spring a TypeScript y vuelta</em>
 </p>
 
 ---
@@ -12,7 +12,7 @@
 ### 🎓 Sobre mí
 
 * 📍 **Desarrollador Web Full Stack Jr.**, aprendiendo construyendo software real
-* 🛠️ Ahora mismo desarrollo **LocuVentas**, un POS full-stack (Spring Boot + React/Vite/TS en monorepo) desde cero: arquitectura por features, migración completa de JS a TypeScript sin `any`, integración con impresoras térmicas
+* 🛠️ Ahora mismo desarrollo **LocuVentas**, un POS full-stack (Spring Boot + React/Vite/TS en monorepo) desde cero: arquitectura por features, migración completa de JS a TypeScript sin `any`, integración con impresoras térmicas (proximamente)
 * 🎓 En paralelo curso web technologies, OOP y frameworks backend (Angular, ASP.NET Core), aplicando cada tema a proyectos propios en vez de solo ejercicios
 * 🧩 Prefiero código limpio y escalable antes que la solución rápida — documento arquitectura y patrones a medida que avanzo
 
