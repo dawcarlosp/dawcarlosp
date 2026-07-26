@@ -12,8 +12,8 @@
 ### 🧭 Sobre mí
 
 * 📍 **Desarrollador Full Stack Jr.**, formándome construyendo software real — no solo ejercicios de clase
-* 🏗️ Ahora mismo diseño y desarrollo **LocuVentas**, un POS full-stack (Spring Boot + React/Vite/TypeScript) desde cero: arquitectura por features, migración completa a TypeScript estricto (cero `any`) y cada decisión documentada en `ARCHITECTURE.md` / `PATTERNS.md`
-* 🤝 En equipo, llevo el backend de **MovieHubAPI** (ASP.NET Core, 5 personas): autenticación JWT, CRUD completo y coordinación de issues en GitHub
+* 🏗️ Ahora mismo diseño y desarrollo **LocuVentas**, un POS full-stack (Spring Boot + React/Vite/TypeScript) desde cero: arquitectura por features y migración completa a TypeScript estricto (cero `any`)
+* 🤝 En **MovieHubAPI** (ASP.NET Core, proyecto de organización con CI en GitHub Actions y SonarQube), llevo el backend completo: autenticación JWT, CRUD y validaciones
 * 🎓 Curso Angular, ASP.NET Core y diseño orientado a objetos, y llevo cada concepto nuevo a un proyecto propio antes de darlo por aprendido — ahora mismo aprendiendo VB.NET para construir el cliente de escritorio de LocuVentas
 * 🧩 Prefiero entender el porqué de una solución antes de implementarla: código limpio, escalable y documentado, por encima del atajo rápido
 
@@ -28,11 +28,11 @@ Sistema de punto de venta full-stack, construido de forma iterativa:
 - Convenciones estrictas: sin `any`, `import type`, discriminated unions
 - Integración con impresoras térmicas (próximamente)
 
-**MovieHubAPI** — proyecto en equipo
-Web API en ASP.NET Core (.NET 10) construida con un equipo de 5 personas:
-- Propietario del backend: CRUD completo de Película y Género
-- Autenticación JWT y validaciones con FluentValidation
-- Coordinación del seguimiento de issues en GitHub para todo el equipo
+**MovieHubAPI** — proyecto de organización
+Plataforma para gestionar un catálogo de películas, construida sobre ASP.NET Core (.NET 10):
+- Backend completo bajo mi responsabilidad: CRUD de Película y Género, autenticación JWT, validaciones con FluentValidation
+- Pipeline de CI con GitHub Actions y análisis de calidad de código con SonarQube
+- Coordinación del seguimiento de issues en GitHub
 
 ---
 
